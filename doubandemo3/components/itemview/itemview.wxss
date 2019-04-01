@@ -1,0 +1,33 @@
+.item-navigator {
+  width: 200rpx;
+  margin:0 20rpx;
+  display: inline-block;
+}
+
+/* .item-navigator:last-of-type {
+  margin-right: 0;
+} */
+
+.item-navigator .item-group {
+  width: 100%;
+  text-align: center;
+}
+
+.item-navigator .item-group .thumbnail-group {
+  width: 100%;
+  height: 280rpx;
+}
+
+.item-navigator .item-group .thumbnail-group image {
+  width: 100%;
+  height: 100%;
+}
+
+.item-navigator .item-group .item-title {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  margin-bottom: 20rpx;
+}

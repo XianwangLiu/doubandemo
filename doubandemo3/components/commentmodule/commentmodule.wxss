@@ -1,0 +1,45 @@
+.comment-group {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.comment-group .left-comment{
+  width: 70rpx;
+  margin-right: 20rpx;
+}
+.comment-group .left-comment image{
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+}
+
+.comment-group .right-comment{
+  flex: 1;
+}
+
+.comment-group .right-comment .username-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20rpx;
+}
+.comment-group .right-comment .username-rate .username {
+  font-size: 32rpx;
+  margin-right: 20rpx;
+}
+.comment-group .right-comment .release-time{
+  color: #b3b3b3;
+  font-size: 32rpx;
+}
+.comment-group .right-comment .content{
+  font-size: 32rpx;
+  color: #353535;
+  margin-top: 10rpx;
+}
+
+.more-comment{
+  text-align: center;
+  font-size: 36rpx;
+  color: #41b157;
+  margin-bottom: 40rpx;
+}

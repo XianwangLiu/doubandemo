@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "commentmodule": "/components/commentmodule/commentmodule"
+  }
+}
